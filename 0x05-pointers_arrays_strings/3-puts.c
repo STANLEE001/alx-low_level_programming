@@ -9,7 +9,7 @@
  * On success: returns no error
  */
 
-void _puts(char *str)
+void _put(char *str)
 {
 int i = 0;
 while (*(str + i) != '\0')
