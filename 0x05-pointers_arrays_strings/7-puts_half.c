@@ -3,14 +3,14 @@
 /**
 *puts_half - function that prints half of a string, followed by a new line.
 *
-*@str: this is the input string
+*@str: This is the input string
 */
 
 void puts_half(char *str)
 {
 int index. half;
 
-index = 0
+index = 0;
 while (str[index] != '\0')
 index++;
 half = index / 2;
