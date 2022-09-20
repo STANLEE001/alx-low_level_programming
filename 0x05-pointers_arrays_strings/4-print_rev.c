@@ -7,10 +7,12 @@
 *@s: String to reverse
 *Return: nothing
 */
+
 void print_rev(char *s)
 {
-int len = stren(s);
+int len = strlen(s);
+
 while (len--)
 putchar(*(s + len));
-putchar(10)
+putchar(10);
 }
